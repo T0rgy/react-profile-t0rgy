@@ -21,7 +21,7 @@ function Header() {
                 const projects = [
                 {
                     title: "Book Bits",
-                    image: "./images/Book-bits-homepage-screenshot.png",
+                    image: "./images/book-bits-homepage-screenshot.png",
                     repo: "https://github.com/Mazattack1999/book-bits",
                     deployed: "https://book-bits-blog.herokuapp.com/",
                     description: "A fullstack forum website to discuss and review users favorite books."
