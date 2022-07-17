@@ -4,9 +4,9 @@ import "./styles/Footer.css";
 function Footer() {
     return(
         <footer>
-            <h2 style={{textAlign: "center", fontSize: "20px", marginTop: '20px'}}>Feel free to reach out to me throught the following links:</h2>
+            <h2 className="reachOut">Feel free to reach out to me throught the following links:</h2>
             <nav >
-                <ul style={{margin: 40, position: "relative", bottom: 0}} className="footerNavbar">
+                <ul className="footerNavbar">
                     <li>
                         <a href="https://github.com/T0rgy" target="_blank" rel="noreferrer"><i className="fab fa-github fa-5x footerIcon"></i></a>
                     </li>

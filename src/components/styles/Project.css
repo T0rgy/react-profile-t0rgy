@@ -6,26 +6,28 @@
     --color5: #59656F;
 }
 
+.grid {
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-template-rows: repeat(auto-fill, minmax (200px, 1fr));
+    grid-gap: 20px;
+    align-items: flex-start;
+}
 .card {
+    background-color: var(--color3);
     border-radius: 0.5rem;
     box-shadow: 0.8rem 0.8rem 0.8rem -0.03rem rgba(0, 0, 0, 10.5);
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    margin: 30px;
+    height: fit-content;
+    width: 500px;
+    margin: 20px;
+    padding: 2%;
     justify-self: center;
 }
 
-.card:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
 .image {
-    border-radius: 0.5rem 0.5rem 0 0;
-    width: 100%;
-    object-fit: cover;
-    height: 10rem;
-
+width: 100%;
+max-height: 300px;
 }
 
 .image:hover {
@@ -52,11 +54,4 @@
 
 .github-button:hover {
     box-shadow: inset 0 0 16px 10px var(--color2)
-}
-
-@media screen and (min-width: 1100px) {
-    .card {
-        width: 40vh;
-        height: 350px;
-    }
 }

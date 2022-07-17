@@ -70,7 +70,7 @@
 }
 
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 995px) {
     .navbar {
         flex-direction: row;
     }
@@ -79,7 +79,4 @@
         flex-direction: row;
     }
     
-    .spaceOut {
-        padding-right: 10px;
-    }
 }

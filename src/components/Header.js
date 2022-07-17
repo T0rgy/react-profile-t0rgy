@@ -6,7 +6,6 @@ import Navigation from "./Navigation";
 import ContactForm from "./pages/ContactForm";
 import AboutMe from "./pages/AboutMe";
 import Resume from "./pages/Resume";
-import "./styles/Header.css"
 
 
 function Header() {
@@ -32,7 +31,7 @@ function Header() {
                     image: "./images/nasa-spirit-groupProject.png",
                     repo: "https://github.com/aubree-alexander/the-nasa-spirit",
                     deployed: "https://aubree-alexander.github.io/the-nasa-spirit/",
-                    description:"A website that allows the end user to obtain the current weather from an Nasa's API."
+                    description:"A website that allows the user to obtain the current weather from Nasa's API."
                 },
                 {
                     title: "MERN SPA Project",
@@ -45,12 +44,9 @@ function Header() {
                 ]
                 return(
                     <div>
-                        <h3 style={{marginLeft: "2%"}}>Click the image to be directed to the application site.</h3>
-                        <ul className="card-wrapper">
-                            {projects.map((project) => {
-                                return <Project project={project} />;
-                            })}
-                        </ul>
+                        {projects.map((project) => {
+                            return <Project project={project} />;
+                        })}
                     </div>
                     
                 );
