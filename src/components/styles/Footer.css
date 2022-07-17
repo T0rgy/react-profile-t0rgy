@@ -1,0 +1,22 @@
+:root {
+    --color1: #94e8b4;
+    --color2: #72bda3;
+    --color3: #5e8c61;
+    --color4: #4e6151;
+    --color5: #59656F;
+}
+
+.footerNavbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerIcon {
+    color: var(--color5);
+}
+
+.footerIcon:hover {
+    color: var(--color3);
+    transition: color 0.9s;
+}

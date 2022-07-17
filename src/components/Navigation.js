@@ -3,11 +3,11 @@ import "./styles/Navigation.css";
 
 function Navigation(props) {
     
-
     return(
-        <div className="header">
-            <h1 style={{color: "#3A506B"}}>
-                Jacob Torgeson
+        <div className="header" style={{background: `url(${process.env.PUBLIC_URL}/images/background.jpg)`}}>
+            
+            <h1>
+                <a className="homeLinkDecoration" href="/" >Jacob Torgeson</a> 
             </h1>
             <nav>
                 <ul className="navbar">

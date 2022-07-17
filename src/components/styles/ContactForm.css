@@ -1,0 +1,45 @@
+:root {
+    --color1: #94e8b4;
+    --color2: #72bda3;
+    --color3: #5e8c61;
+    --color4: #4e6151;
+    --color5: #59656F;
+}
+
+.inputStyling {
+    width: 100%;
+    padding: 12px; 
+    border: 3px solid var(--color1); 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+.button{
+    background-color: var(--color1);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+  
+.container {
+    border-radius: 5px;
+    background-color: var(--color5);
+    padding: 20px;
+    height: auto;
+    width: 95%;
+    margin: 20px;
+
+    box-shadow: 0.1rem 0.15rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+}
+

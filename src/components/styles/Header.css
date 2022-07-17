@@ -1,0 +1,15 @@
+.card-wrapper {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, 16%);
+    grid-gap: 10px 20px;
+}
+
+@media screen and (min-width: 1100px) {
+    .card-wrapper {
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 50% 50%;
+        grid-gap: 10px 20px;
+    }
+}

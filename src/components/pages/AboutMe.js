@@ -5,25 +5,22 @@ import "../styles/AboutMe.css";
 function AboutMe() {
 
     return(
-        <div className="backgroundColor aboutMeSection">
+        <div className="backgroundContainer">
             <div>
-                <img style={{height:"100%", borderRadius: "2rem", marginLeft:"2%", boxShadow:"0.2rem 0.2rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45)", width: '90%'}} alt="Jacob Torgeson" src="./images/profile.png" />
+                <img className="img" alt="Jacob Torgeson" src="./images/profile.png" />
             </div>
-            <div style={{marginLeft: '10px'}}>
-                <h2 className="title" style={{textAlign: 'center'}}>About Me</h2>
-                {/* profile pic goes here */}
+            <div style={{marginLeft: '20px'}}>
+                <h2 className="title">About Me</h2>
                 <article className="article">
                     <p>
+                        Hello, my name is Jacob Torgeson and currently I'm a full time Account Sales Representive for Pepsi-Cola of Madison WI. I am currently enrolled in the University of Wisconsin's Web Development Coding Bootcamp, hoping to expand my career into Web Development. Some hobbies outside of work include golfing, kayaking, hiking, video games, tennis, movies, concerts and going out friends.
+                        <br/>
 
-                    </p>
-                    <br/>
-                    <p>
 
                     </p>
                     
                 </article>
             </div>
-            
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import {useState} from "react";
+import { useState } from "react";
 import Project from "./pages/Project";
 import Footer from "./Footer";
 import Navigation from "./Navigation";
@@ -13,7 +13,6 @@ function Header() {
     const [currentPage, setCurrentPage] = useState("About Me");
     
     const handlePageRender = () => {
-        // console.log(currentPage);
         switch(currentPage) {
             case "About Me": {
                 return(<AboutMe />);
@@ -33,7 +32,7 @@ function Header() {
                     image: "./images/nasa-spirit-groupProject.png",
                     repo: "https://github.com/aubree-alexander/the-nasa-spirit",
                     deployed: "https://aubree-alexander.github.io/the-nasa-spirit/",
-                    description:"This project is a website that allows the end user to obtain the current weather for a location while also retrieving data related to the moon phase and how clear the sky is at that given moment."
+                    description:"A website that allows the end user to obtain the current weather from an Nasa's API."
                 },
                 {
                     title: "MERN SPA Project",
@@ -46,7 +45,7 @@ function Header() {
                 ]
                 return(
                     <div>
-                        <h3 style={{marginLeft: "2%"}}>Click the images to see the application in action!</h3>
+                        <h3 style={{marginLeft: "2%"}}>Click the image to be directed to the application site.</h3>
                         <ul className="card-wrapper">
                             {projects.map((project) => {
                                 return <Project project={project} />;
@@ -77,7 +76,6 @@ function Header() {
             {handlePageRender()}
             <Footer />
         </div>
-        
         );
 }
 

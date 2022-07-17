@@ -8,14 +8,14 @@ function Footer() {
             <nav >
                 <ul style={{margin: 40, position: "relative", bottom: 0}} className="footerNavbar">
                     <li>
-                        <a className="footerLink" href="https://github.com/T0rgy" target="_blank" rel="noreferrer"><i className="fab fa-github fa-5x footerIcon"></i></a>
+                        <a href="https://github.com/T0rgy" target="_blank" rel="noreferrer"><i className="fab fa-github fa-5x footerIcon"></i></a>
                     </li>
                     <li>
-                        <a className="footerLink" href="https://www.linkedin.com/in/jacob-torgeson-a6ba11230/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin fa-5x footerIcon"></i></a>
+                        <a href="https://www.linkedin.com/in/jacob-torgeson-a6ba11230/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin fa-5x footerIcon"></i></a>
                     </li>
 
                     <li>
-                        <a className="footerLink" href="mailto:jctorge@gmail.com"><i className="fas fa-envelope fa-5x footerIcon"></i></a>
+                        <a href="mailto:jctorge@gmail.com"><i className="fas fa-envelope fa-5x footerIcon"></i></a>
                     </li>
                 </ul>
             </nav>
