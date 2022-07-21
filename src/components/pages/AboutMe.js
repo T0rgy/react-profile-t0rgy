@@ -7,7 +7,7 @@ function AboutMe() {
     return(
         <div className="backgroundContainer">
             <div>
-                <img className="img" alt="Jacob Torgeson" src="./images/profile.png" />
+                <img className="img" alt="Jacob Torgeson" src="/react-profile-t0rgy/images/profile.png" />
             </div>
             <div style={{marginLeft: '20px'}}>
                 <h2 className="title">About Me</h2>
