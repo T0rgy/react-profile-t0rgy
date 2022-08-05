@@ -62,11 +62,11 @@ function Header() {
                     description: "This is a Weather application that gives back basic weather data from 'openweathermap.org' after a user enters a city name. They are also presented with a 5 day forcast and previous searched city history."
                 },
                 {
-                    title: "MERN SPA Project",
-                    image: "./react-profile-t0rgy/images/",
-                    repo: "/",
-                    deployed: "/",
-                    description: "Coming Soon!"
+                    title: "Cup-of-code",
+                    image: "./react-profile-t0rgy/images/cupofcodeHome.png",
+                    repo: "https://github.com/T0rgy/cup-of-code",
+                    deployed: "https://polar-headland-37122.herokuapp.com/",
+                    description: "This is a Coffee Shop website that is used to create orders from a menu."
                 }
 
                 ]
